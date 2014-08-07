@@ -81,8 +81,7 @@
     };
 
     function buildUrl(params) {
-//        var url = 'http://np.artefact.in.ua/';
-        var url = 'http://np.artefact.art/';
+        var url = 'http://np.artefact.in.ua/';
 
         url += params.lang + '/';
 
