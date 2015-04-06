@@ -134,7 +134,7 @@
 
     function getObjByType(type) {
         if(type !== null)
-            return $('select[name="'+ type +'"');
+            return $('select.np-'+ type);
 
         return null;
     }
